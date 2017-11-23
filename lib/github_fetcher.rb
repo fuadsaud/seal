@@ -49,7 +49,8 @@ class GithubFetcher
   # https://developer.github.com/v3/search/#search-issues
   # returns up to 100 results per page.
   def pull_requests_from_github
-    @github.search_issues("is:pr state:open user:#{ORGANISATION}").items
+    repos = include_repos.map { |repo| "repo:#{ORGANISATION}/#{repo}"}.join(' ')
+    @github.search_issues("is:pr state:open #{repos}").items
   end
 
   def person_subscribed?(pull_request)
