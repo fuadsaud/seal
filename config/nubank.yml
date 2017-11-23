@@ -1,8 +1,7 @@
 # Please insert new items alphabetically.
 
 backend-hiring-reviewers:
-  members:
-    - fuad
+  members: []
 
   channel:
     "#guild-eng-hiring"
@@ -13,6 +12,9 @@ backend-hiring-reviewers:
     - DO NOT MERGE
     - "Waiting on factcheck"
     - WIP
+
+  include_repos:
+    - challenges
 
   use_labels: true
 
