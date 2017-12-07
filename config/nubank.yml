@@ -36,3 +36,46 @@ backend-hiring-reviewers:
     - Don't forget the Jabra and fisheye lens if you're dialing in people!
     - If Hangouts is being flaky, try Slack calls or appear.in!
     - I AM VENGEANCE! I AM THE NIGHT! I AM BATMAN! :batsignal:
+
+
+ios-developers:
+  members: []
+
+  channel:
+    "#ios-github"
+
+  exclude_titles:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - "Waiting on factcheck"
+    - WIP
+    - "[AUTO-BUMP]"
+
+  include_repos:
+    - ios-bonafont
+    - ios-cli
+    - ios-common
+    - ios-common-legacy
+    - ios-core
+    - ios-feed
+    - ios-help
+    - ios-mgm
+    - ios-cnn
+    - ios-payment-flow
+    - ios-rewards
+    - ios-settings
+    - iphone-app
+    - shell
+
+  use_labels: true
+
+  exclude_labels:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - "Waiting on factcheck"
+    - "doing"
+
+  quotes:
+    - If it’s gonna take more than 30 minutes, or it needs deploying - write a card for it and chat to the Product Manager.
