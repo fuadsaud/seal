@@ -48,10 +48,11 @@ ios-developers:
     - "[DO NOT MERGE]"
     - "Don't merge"
     - DO NOT MERGE
-    - "Waiting on factcheck"
     - WIP
+    - "[WIP]"
     - "[AUTO-BUMP]"
     - "[Android]"
+    - "Android"
 
   include_repos:
     - ios-bonafont
@@ -75,8 +76,8 @@ ios-developers:
     - "[DO NOT MERGE]"
     - "Don't merge"
     - DO NOT MERGE
-    - "Waiting on factcheck"
     - "doing"
+    - "blocked"
     - "android"
 
   quotes:
