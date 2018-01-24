@@ -50,6 +50,8 @@ ios-developers:
     - DO NOT MERGE
     - WIP
     - "[WIP]"
+    - "wip"
+    - "[wip]"
     - "[AUTO-BUMP]"
     - "[Android]"
     - "Android"
@@ -60,6 +62,7 @@ ios-developers:
     - ios-common
     - ios-common-legacy
     - ios-core
+    - ios-credit-card
     - ios-feed
     - ios-help
     - ios-mgm
@@ -67,6 +70,7 @@ ios-developers:
     - ios-payment-flow
     - ios-rewards
     - ios-settings
+    - ios-virtual-card
     - iphone-app
     - shell
 
