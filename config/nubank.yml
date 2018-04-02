@@ -41,8 +41,8 @@ chargeback-developers:
   members: []
 
   channel:
-    "#squad-chargeback-dev"
-
+    "#squad-chargebacks-dev"
+    
   exclude_titles:
     - "[DO NOT MERGE]"
     - "Don't merge"
