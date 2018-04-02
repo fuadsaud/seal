@@ -37,6 +37,38 @@ backend-hiring-reviewers:
     - If Hangouts is being flaky, try Slack calls or appear.in!
     - I AM VENGEANCE! I AM THE NIGHT! I AM BATMAN! :batsignal:
 
+chargeback-developers:
+  members: []
+
+  channel:
+    "#squad-chargebacks-dev"
+    
+  exclude_titles:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - WIP
+    - "[WIP]"
+    - "wip"
+    - "[wip]"
+    - "[AUTO-BUMP]"
+
+  include_repos:
+    - chargebacks
+    - gabyves
+    - image-processor
+    - mercurio
+    - netuno
+    - vulcano
+
+  use_labels: true
+
+  exclude_labels:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - "doing"
+    - "blocked"
 
 ios-developers:
   members: []
