@@ -145,3 +145,52 @@ mobile-hiring-reviewers:
 
   quotes:
     - If it’s gonna take more than 30 minutes, or it needs deploying - write a card for it and chat to the Product Manager.
+
+nupay-reviewers:
+  members: []
+
+  channel:
+    "#nupay-prs"
+
+  exclude_titles:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - WIP
+    - "[WIP]"
+    - "wip"
+    - "[wip]"
+
+  include_repos:
+    - paper-street
+    - angel-face
+    - doorman
+    - pitt
+    - norton
+    - ios-nupay
+    - android-nupay
+    - space-monkeys
+    - fight-club
+    - boham
+    - mayhen
+    - durden
+    - merchants
+
+  use_labels: true
+
+  exclude_labels:
+    - "[DO NOT MERGE]"
+    - "Don't merge"
+    - DO NOT MERGE
+    - "doing"
+    - "blocked"
+    - "android"
+    - WIP
+    - "[WIP]"
+    - "wip"
+    - "[wip]"
+
+  quotes:
+    - If it's gonna take more than 30 minutes, or it needs deploying - write a card for it and chat to the Product Manager.
+    - Try to pair when possible.
+    - Who's organising the next team happy hour? :beer:
