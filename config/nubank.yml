@@ -60,6 +60,10 @@ chargeback-developers:
     - mercurio
     - netuno
     - vulcano
+    - marte
+    - judite
+    - hank
+    - skyler
 
   use_labels: true
 
