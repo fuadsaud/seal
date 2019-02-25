@@ -93,22 +93,10 @@ ios-developers:
     - "Android"
 
   include_repos:
-    - ios-bonafont
+    - mini-meta-repo
     - ios-cli
-    - ios-common
-    - ios-common-legacy
-    - ios-core
     - ios-credit-card
-    - ios-feed
-    - ios-help
-    - ios-mgm
-    - ios-cnn
-    - ios-payment-flow
-    - ios-rewards
-    - ios-settings
-    - ios-virtual-card
-    - iphone-app
-    - shell
+    - ios-shell
 
   use_labels: true
 
