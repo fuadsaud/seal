@@ -64,6 +64,11 @@ chargeback-developers:
     - judite
     - hank
     - skyler
+    - osiris
+    - dealer
+    - bet
+    - suits
+    - judite
 
   use_labels: true
 
